@@ -1,0 +1,1650 @@
+==PROF== Connected to process 278044 (/ext3/miniconda3/bin/python3.9)
+=> creating model 'resnet18'
+==PROF== Profiling "CatArrayBatchedCopy" - 1: 0%....50%....100% - 1 pass
+==PROF== Profiling "CatArrayBatchedCopy" - 2: 0%....50%....100% - 1 pass
+==PROF== Profiling "CatArrayBatchedCopy" - 3: 0%....50%....100% - 1 pass
+==PROF== Profiling "CatArrayBatchedCopy" - 4: 0%....50%....100% - 1 pass
+==PROF== Profiling "CatArrayBatchedCopy" - 5: 0%....50%....100% - 1 pass
+==PROF== Profiling "CatArrayBatchedCopy" - 6: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 7: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x64_relu_medi..." - 8: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 9: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 10: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 11: 0%....50%....100% - 1 pass
+==PROF== Profiling "max_pool_forward_nchw" - 12: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 13: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 14: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 15: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 16: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 17: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 18: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 19: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 20: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 21: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 22: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 23: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 24: 0%....50%....100% - 1 pass
+==PROF== Profiling "max_pool_forward_nchw" - 25: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 26: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 27: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 28: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 29: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 30: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 31: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 32: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 33: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 34: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 35: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 36: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 37: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 38: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 39: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 40: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 41: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 42: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x128_relu_sma..." - 43: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 44: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 45: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 46: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 47: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 48: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 49: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 50: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 51: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 52: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 53: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 54: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 55: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 56: 0%....50%....100% - 1 pass
+==PROF== Profiling "generateWinogradTilesKernel" - 57: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_winograd_128x128..." - 58: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 59: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 60: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 61: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 62: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 63: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x128_relu_sma..." - 64: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 65: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 66: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 67: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 68: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 69: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_nt" - 70: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_32x32" - 71: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 72: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 73: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 74: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x128_relu_int..." - 75: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 76: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 77: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 78: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 79: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 80: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 81: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_nt" - 82: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_32x32" - 83: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 84: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 85: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 86: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 87: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_32x32" - 88: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_nt" - 89: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_32x32" - 90: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 91: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 92: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 93: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 94: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 95: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x64_relu_xreg..." - 96: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 97: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 98: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 99: 0%....50%....100% - 1 pass
+==PROF== Profiling "flip_filter" - 100: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 101: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 102: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_tn" - 103: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_16x16" - 104: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 105: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 106: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 107: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x128_relu_med..." - 108: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 109: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 110: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 111: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 112: 0%....50%....100% - 1 pass
+==PROF== Profiling "flip_filter" - 113: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 114: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 115: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_tn" - 116: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_16x16" - 117: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 118: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 119: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 120: 0%....50%....100% - 1 pass
+==PROF== Profiling "flip_filter" - 121: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 122: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_r2c_16x16" - 123: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_gcgemm_64x64_tn" - 124: 0%....50%....100% - 1 pass
+==PROF== Profiling "fft2d_c2r_16x16" - 125: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 126: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_kernel_NCHW" - 127: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 128: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 129: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel3D" - 130: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeBOffsetsKernel" - 131: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x64_3dconv_fp..." - 132: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 133: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_singleread" - 134: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 135: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardData4x4" - 136: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardFilter4x4" - 137: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_sgemm_64x64_nn" - 138: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardOutput4x4" - 139: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 140: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_singleread" - 141: 0%....50%....100% - 1 pass
+==PROF== Profiling "computeOffsetsKernel" - 142: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_scudnn_128x128_relu_sma..." - 143: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 144: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_singleread" - 145: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 146: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 147: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardData4x4" - 148: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardFilter4x4" - 149: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_sgemm_64x64_nn" - 150: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardOutput4x4" - 151: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 152: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_singleread" - 153: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 154: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardData4x4" - 155: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardFilter4x4" - 156: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_sgemm_64x64_nn" - 157: 0%....50%....100% - 1 pass
+==PROF== Profiling "winogradForwardOutput4x4" - 158: 0%....50%....100% - 1 pass
+==PROF== Profiling "unrolled_elementwise_kernel" - 159: 0%....50%....100% - 1 pass
+==PROF== Profiling "bn_fw_tr_1C11_singleread" - 160: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 161: 0%....50%....100% - 1 pass
+==PROF== Profiling "vectorized_elementwise_kernel" - 162: 0%....50%....100% - 1 pass
+==PROF== Profiling "reduce_kernel" - 163: 0%....50%....100% - 1 pass
+==PROF== Profiling "volta_sgemm_64x32_sliced1x4_tn" - 164: 0%....50%....100% - 1 pass
+==PROF== Target process 279152 terminated before first instrumented API call.
+==PROF== Target process 279168 terminated before first instrumented API call.
+Start profiling...
+End profiling...
+==PROF== Target process 279184 terminated before first instrumented API call.
+==PROF== Target process 279185 terminated before first instrumented API call.
+==PROF== Disconnected from process 278044
+[278044] python3.9@127.0.0.1
+  void at::native::<unnamed>::CatArrayBatchedCopy<float, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::CatArrayBatchedCopy<float, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::CatArrayBatchedCopy<float, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::CatArrayBatchedCopy<float, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::CatArrayBatchedCopy<long, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::CatArrayBatchedCopy<float, unsigned int, (int)1, (int)128, (int)1>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2), 2024-Apr-08 18:46:50, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:46:53, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x64_relu_medium_nn_v1, 2024-Apr-08 18:46:53, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      321126.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         329728
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         311296
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      102760448
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:53, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)512, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:53, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1285696.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1607363
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      411422912
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::max_pool_forward_nchw<float, float>(int, const T1 *, long, long, long, int, int, int, int, int, int, int, int, int, int, T1 *, long *), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1837056
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:54, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::<unnamed>::max_pool_forward_nchw<float, float>(int, const T1 *, long, long, long, int, int, int, int, int, int, int, int, int, int, T1 *, long *), 2024-Apr-08 18:46:55, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:55, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:55, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1777152
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:55, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1797120
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1777152
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:55, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:55, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x128_relu_small_nn_v1, 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       40140.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40960
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          36864
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       12845056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:56, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd::generateWinogradTilesKernel<(int)0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<T2, T3>), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          51.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                            128
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                          16384
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1, 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                     1789132.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                        1817088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                        1757184
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      572522496
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)128, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      322317.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         411331
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      103141568
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x128_relu_small_nn_v1, 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       40140.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40960
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          36864
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       12845056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)1, (bool)1>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:57, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         521472
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         409728
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)0, (bool)0>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:57, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         558720
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         409728
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_nt, 2024-Apr-08 18:46:57, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      233267.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         257280
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         205824
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       74645504
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_32x32<float, (bool)0, (bool)0, (unsigned int)0, (bool)0, (bool)0>(T1 *, const float2 *, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, T1 *, T1 *, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      469606.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         550320
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         403568
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      150274048
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x128_relu_interior_nn_v1, 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       40140.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40960
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          36864
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       12845056
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)1, (bool)1>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         521472
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         446976
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)0, (bool)0>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         558720
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         409728
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_nt, 2024-Apr-08 18:46:58, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      233267.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         257280
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         214400
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       74645504
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_32x32<float, (bool)0, (bool)0, (unsigned int)0, (bool)0, (bool)0>(T1 *, const float2 *, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, T1 *, T1 *, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      469606.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         550320
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         403568
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      150274048
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)1, (bool)1>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         521472
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         446976
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_32x32<float, (bool)0, (unsigned int)0, (bool)0>(float2 *, const T1 *, int, int, int, int, int, int, int, int, int, cudnn::reduced_divisor, bool, int2, int, int), 2024-Apr-08 18:46:58, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      476774.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         521472
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         409728
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      152567808
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_nt, 2024-Apr-08 18:46:59, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      233267.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         257280
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         214400
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       74645504
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_32x32<float, (bool)0, (bool)0, (unsigned int)0, (bool)0, (bool)0>(T1 *, const float2 *, int, int, int, int, int, int, int, int, int, float, float, cudnn::reduced_divisor, bool, T1 *, T1 *, int2, int, int), 2024-Apr-08 18:46:59, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      469606.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         550320
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         403568
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      150274048
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      162945.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         203843
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         101760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       52142464
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x64_relu_xregs_large_nn_v1, 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       20070.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          22528
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          18432
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        6422528
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       85045.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         106307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          52992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       27214592
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void flip_filter<float, float>(T2 *, const T1 *, int, int, int, int), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         376832
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         485760
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         272320
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      120586240
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:46:59, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         188416
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         213440
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         169280
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       60293120
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_tn, 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         211968
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         235520
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         191360
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67829760
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_16x16<float, (bool)0>(T1 *, float2 *, int, int, int, int, int, int, int, int, int, int, float, float, int, T1 *, T1 *), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      211353.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         239424
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         181632
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67633152
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:46:59, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       85045.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         106307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          52992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       27214592
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x128_relu_medium_nn_v1, 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       20070.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          24576
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          16384
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        6422528
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       85045.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         106307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          52992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       27214592
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void flip_filter<float, float>(T2 *, const T1 *, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         376832
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         493120
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         264960
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      120586240
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         188416
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         206080
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         176640
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       60293120
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_tn, 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         211968
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         235520
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         191360
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67829760
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_16x16<float, (bool)0>(T1 *, float2 *, int, int, int, int, int, int, int, int, int, int, float, float, int, T1 *, T1 *), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      211353.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         239424
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         181632
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67633152
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       85045.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         106307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          52992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       27214592
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void flip_filter<float, float>(T2 *, const T1 *, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         376832
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         463680
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         257600
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                      120586240
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_r2c_16x16<float>(float2 *, const T1 *, int, int, int, int, int, int, int, int), 2024-Apr-08 18:47:00, Context 2, Stream 34
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         188416
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         206080
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         169280
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       60293120
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_gcgemm_64x64_tn, 2024-Apr-08 18:47:00, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                         211968
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         235520
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         191360
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67829760
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void fft2d_c2r_16x16<float, (bool)0>(T1 *, float2 *, int, int, int, int, int, int, int, int, int, int, float, float, int, T1 *, T1 *), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      211353.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         231168
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         189888
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       67633152
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_kernel_NCHW<float, float, int, (int)32, (bool)1, (int)1, (bool)1>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const T2 *, const T2 *, T2, T2, T2 *, T2 *, T2 *, T2 *, T2, T2), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       85045.60
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         106307
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          52992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       27214592
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel3D<(bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x64_3dconv_fprop_small_nn_v1, 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_singleread<float, (int)512, (bool)1, (int)1, (int)2, (int)0>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const float *, const float *, float, float, float *, float *, float *, float *, float, float, cudnn::reduced_divisor, int, cudnn::reduced_divisor, cudnn::bnFwPersistentState *, int, float, float, float, int, float, float, cudnnStatus_t *, bool), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       28779.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40713
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          26819
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        9209344
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<T1, T2>), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       78643.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          89088
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          67584
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       25165824
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<T1, T2>), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       22118.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          24192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          20736
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        7077888
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_sgemm_64x64_nn, 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<T1, T2>), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      186982.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         200860
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         171644
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       59834368
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_singleread<float, (int)512, (bool)1, (int)1, (int)2, (int)0>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const float *, const float *, float, float, float *, float *, float *, float *, float, float, cudnn::reduced_divisor, int, cudnn::reduced_divisor, cudnn::bnFwPersistentState *, int, float, float, float, int, float, float, cudnnStatus_t *, bool), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       28779.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40713
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          26819
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        9209344
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cask_cudnn::computeOffsetsKernel<(bool)0, (bool)0>(cask_cudnn::ComputeOffsetsParams), 2024-Apr-08 18:47:01, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_scudnn_128x128_relu_small_nn_v1, 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       10035.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          16384
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                           8192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        3211264
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_singleread<float, (int)512, (bool)1, (int)1, (int)2, (int)0>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const float *, const float *, float, float, float *, float *, float *, float *, float, float, cudnn::reduced_divisor, int, cudnn::reduced_divisor, cudnn::bnFwPersistentState *, int, float, float, float, int, float, float, cudnnStatus_t *, bool), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       28779.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40713
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          26819
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        9209344
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       78643.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          92160
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          70656
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       25165824
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       22118.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          24192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          20736
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        7077888
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_sgemm_64x64_nn, 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      186982.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         200860
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         167992
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       59834368
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_singleread<float, (int)512, (bool)1, (int)1, (int)2, (int)0>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const float *, const float *, float, float, float *, float *, float *, float *, float, float, cudnn::reduced_divisor, int, cudnn::reduced_divisor, cudnn::bnFwPersistentState *, int, float, float, float, int, float, float, cudnnStatus_t *, bool), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       28779.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40713
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          26819
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        9209344
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardData4x4<float, float>(cudnn::winograd_nonfused::WinogradDataParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       78643.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          92160
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          64512
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       25165824
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardFilter4x4<float, float>(cudnn::winograd_nonfused::WinogradFilterParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       22118.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          24192
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          20736
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        7077888
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_sgemm_64x64_nn, 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::winograd_nonfused::winogradForwardOutput4x4<float, float>(cudnn::winograd_nonfused::WinogradOutputParams<T1, T2>), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                      186982.40
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                         200860
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                         164340
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       59834368
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char *, (int)2>, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T3, T4, T5, T6), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void cudnn::bn_fw_tr_1C11_singleread<float, (int)512, (bool)1, (int)1, (int)2, (int)0>(cudnnTensorStruct, const T1 *, cudnnTensorStruct, T1 *, const float *, const float *, float, float, float *, float *, float *, float *, float, float, cudnn::reduced_divisor, int, cudnn::reduced_divisor, cudnn::bnFwPersistentState *, int, float, float, float, int, float, float, cudnnStatus_t *, bool), 2024-Apr-08 18:47:02, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                       28779.20
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          40713
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          26819
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                        9209344
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctor_add<float>, at::detail::Array<char *, (int)3>>(int, T2, T3), 2024-Apr-08 18:47:03, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::vectorized_elementwise_kernel<(int)4, at::native::<unnamed>::launch_clamp_scalar(at::TensorIteratorBase &, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 14)]::operator ()() const::[lambda(float) (instance 1)], at::detail::Array<char *, (int)2>>(int, T2, T3), 2024-Apr-08 18:47:03, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                              0
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<float, float>, unsigned int, float, (int)4>>(T3), 2024-Apr-08 18:47:03, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                          62464
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                          68320
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                          58560
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                       19988480
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+  volta_sgemm_64x32_sliced1x4_tn, 2024-Apr-08 18:47:03, Context 2, Stream 15
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.avg                               inst                        1228.80
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.max                               inst                           1536
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.min                               inst                              0
+    smsp__sass_thread_inst_executed_op_fadd_pred_on.sum                               inst                         393216
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
